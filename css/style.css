@@ -703,7 +703,9 @@ a:hover {
 /*======================================
 //--//-->   SERVICES
 ======================================*/
-
+.videoCogf{
+  width: 50vw;
+}
 .service-box {
   background-color: #fff;
   padding: 2.5rem 1.3rem;
