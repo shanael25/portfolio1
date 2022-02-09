@@ -966,9 +966,9 @@ a:hover {
 }
 
 .article-content {
-  display: inline-block;
-  width: 50%;
-  vertical-align: center;
+  display: flex;
+  align-items: center;
+  margin: auto;
 }
 
 /*------/ Comments /------*/
@@ -1213,6 +1213,17 @@ footer .credits a {
 }
 .timeline-list::before {
 	left: -5px;
+}
+.img-stage{
+  width: 300px;
+}
+.img-left{
+  width: 50%;
+float: left;
+}
+.img-right{
+  width: 50%;
+  float: right;
 }
 .timeline-list::after {
 	right: -10px;
