@@ -965,6 +965,12 @@ a:hover {
   font-style: italic;
 }
 
+.article-content {
+  display: inline-block;
+  width: 50%;
+  vertical-align: center;
+}
+
 /*------/ Comments /------*/
 
 .box-comments .list-comments li {
