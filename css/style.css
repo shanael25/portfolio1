@@ -965,6 +965,12 @@ a:hover {
   font-style: italic;
 }
 
+.article-content {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
 /*------/ Comments /------*/
 
 .box-comments .list-comments li {
@@ -1207,6 +1213,18 @@ footer .credits a {
 }
 .timeline-list::before {
 	left: -5px;
+}
+.img-stage{
+  width: 500px;
+  margin-left: 15px;
+}
+.img-left{
+  width: 50%;
+float: left;
+}
+.img-right{
+  width: 50%;
+  float: right;
 }
 .timeline-list::after {
 	right: -10px;
